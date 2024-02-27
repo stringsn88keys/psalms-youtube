@@ -1,0 +1,53 @@
+Books:
+  - title: Lectionary Psalms
+    short_title: LP
+    parts:
+      - Responsorial Psalm
+    author: Michel Guimont
+    publisher: World Library Publications
+    short_publisher: WLP
+  - title: Lectionary Psalms and gospel_acclamations
+    short_title: LPGA
+    parts:
+      - Responsorial Psalm
+      - Gospel Acclamation
+    publisher: GIA Publications
+    short_published: GIA
+  - title: Respond and Acclaim
+    short_title: RA
+    parts:
+      - Gospel Acclamation
+    author: Owen Alstott
+    publisher: Oregon Catholic Press
+    short_publisher: OCP
+Weeks:
+  - liturgical_week: "Third Sunday of Lent, Year B"
+    liturgical_week_short: 3rdSundayLentB
+    responsorial_psalm:
+      title: "John 6:68/Psalm 19: Lord, you have the words of everlasting life"
+      alt:
+        LPGA:
+          author: J. Michael Thompson
+    gospel_acclamation:
+      verse: John 3:16
+      LPGA:
+        Response: Praise and honor to you, Lord Jesus Christ
+        Author: Paul M. French
+      RA:
+        Response: Praise to you, Lord Jesus Christ, King of endless glory
+  - liturgical_week: Third Sunday of Lent, Year A (RCIA)
+    liturgical_week_short: 3rdSundayLentRCIA
+    description: For the First Scrutiny of the Elect
+    responsorial_psalm:
+      title: "Psalm 95:8: If today you hear his voice, harden not your hearts"
+      alt:
+        LPGA:
+          author: David N. Johnson
+    gospel_acclamation:
+      verse: John 4:42,15
+      alt:
+        LPGA:
+          Response: Praise and honor to you, Lord Jesus Christ
+          Author: Paul M. French
+        RA:
+          Response: Praise to you, Lord Jesus Christ, King of endless glory
