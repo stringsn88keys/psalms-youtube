@@ -6,7 +6,7 @@ Books:
     author: Michel Guimont
     publisher: World Library Publications
     short_publisher: WLP
-  - title: Lectionary Psalms and gospel_acclamations
+  - title: Lectionary Psalms and Gospel Acclamations
     short_title: LPGA
     parts:
       - Responsorial Psalm
@@ -30,11 +30,12 @@ Weeks:
           author: J. Michael Thompson
     gospel_acclamation:
       verse: John 3:16
-      LPGA:
-        Response: Praise and honor to you, Lord Jesus Christ
-        Author: Paul M. French
-      RA:
-        Response: Praise to you, Lord Jesus Christ, King of endless glory
+      alt:
+        LPGA:
+          response: Praise and honor to you, Lord Jesus Christ
+          author: Paul M. French
+        RA:
+          response: Praise to you, Lord Jesus Christ, King of endless glory
   - liturgical_week: Third Sunday of Lent, Year A (RCIA)
     liturgical_week_short: 3rdSundayLentRCIA
     description: For the First Scrutiny of the Elect
@@ -47,7 +48,7 @@ Weeks:
       verse: John 4:42,15
       alt:
         LPGA:
-          Response: Praise and honor to you, Lord Jesus Christ
-          Author: Paul M. French
+          response: Praise and honor to you, Lord Jesus Christ
+          author: Paul M. French
         RA:
-          Response: Praise to you, Lord Jesus Christ, King of endless glory
+          response: Praise to you, Lord Jesus Christ, King of endless glory
