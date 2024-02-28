@@ -1,5 +1,6 @@
 require 'yaml'
 
+
 data=YAML.parse(ARGF.read).to_ruby
 
 def short_part(part)
@@ -68,6 +69,9 @@ data['Weeks'].each do |week|
         f.puts "\"#{title(book, part, week)}\" - #{author(book, part, week)}"
         f.puts sub_description(book, part, week)
         f.puts extra
+        f.puts "##{week['liturgical_week_short']}"
+        f.puts week['other_tags'].map { |tag| "##{tag}" }.join ' '
+
         f.puts
       end
     end

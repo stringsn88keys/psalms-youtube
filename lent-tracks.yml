@@ -1,12 +1,12 @@
 Books:
-  - title: Lectionary Psalms
+  - title: Lectionary Psalms (GIA)
     short_title: LP
     parts:
       - Responsorial Psalm
     author: Michel Guimont
     publisher: GIA Publications
     short_publisher: GIA
-  - title: Lectionary Psalms and Gospel Acclamations
+  - title: Lectionary Psalms and Gospel Acclamations (WLP)
     short_title: LPGA
     parts:
       - Responsorial Psalm
@@ -24,6 +24,8 @@ Books:
 Weeks:
   - liturgical_week: "Third Sunday of Lent, Year B"
     liturgical_week_short: 3rdSundayLentB
+    other_tags:
+      - lent3b
     responsorial_psalm:
       title: "John 6:68/Psalm 19: Lord, you have the words of everlasting life"
       alt:
@@ -39,6 +41,9 @@ Weeks:
           response: Praise to you, Lord Jesus Christ, King of endless glory
   - liturgical_week: Third Sunday of Lent, Year A (RCIA)
     liturgical_week_short: 3rdSundayLentRCIA
+    other_tags:
+      - lent3a
+      - lent3rcia
     description: For the First Scrutiny of the Elect
     responsorial_psalm:
       title: "Psalm 95:8: If today you hear his voice, harden not your hearts"
