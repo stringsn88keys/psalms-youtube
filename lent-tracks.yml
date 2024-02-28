@@ -4,18 +4,18 @@ Books:
     parts:
       - Responsorial Psalm
     author: Michel Guimont
-    publisher: World Library Publications
-    short_publisher: WLP
+    publisher: GIA Publications
+    short_publisher: GIA
   - title: Lectionary Psalms and Gospel Acclamations
     short_title: LPGA
     parts:
-      - Responsorial Psalm
       - Gospel Acclamation
-    publisher: GIA Publications
-    short_published: GIA
+    publisher: World Library Publications
+    short_publisher: WLP
   - title: Respond and Acclaim
     short_title: RA
     parts:
+      - Responsorial Psalm
       - Gospel Acclamation
     author: Owen Alstott
     publisher: Oregon Catholic Press

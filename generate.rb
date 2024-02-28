@@ -1,7 +1,6 @@
 require 'yaml'
 
 data=YAML.parse(ARGF.read).to_ruby
-puts data
 
 def short_part(part)
   case part
@@ -56,12 +55,16 @@ def extra
   ].join("\n")
 end
 
+def base_filename(book, part, week)
+  "#{book['short_title']}_#{week['liturgical_week_short']}_#{book['short_publisher']}_#{short_part(part)}"
+end
+
 data['Weeks'].each do |week|
   File.open(week['liturgical_week_short']+"descriptions.txt", "wt+") do |f|
-    puts "=== #{week['liturgical_week']} ==="
+    f.puts "=== #{week['liturgical_week']} ==="
     data['Books'].each do |book|
       book['parts'].each do |part|
-        f.puts "Filename: #{book['short_title']}_#{week['liturgical_week_short']}_#{book['short_publisher']}_#{short_part(part)}"
+        f.puts "Filename: "+ base_filename(book, part, week)
         f.puts "\"#{title(book, part, week)}\" - #{author(book, part, week)}"
         f.puts sub_description(book, part, week)
         f.puts extra
