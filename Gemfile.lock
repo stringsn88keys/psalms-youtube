@@ -8,6 +8,7 @@ GEM
       pkg-config (~> 1.4)
 
 PLATFORMS
+  arm64-darwin-20
   arm64-darwin-22
 
 DEPENDENCIES
