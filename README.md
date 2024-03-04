@@ -11,4 +11,5 @@ ffmpeg -ss 00:01:00 -i input.mp4 -frames:v 1 output.png
 ```
 * Render using ffmpeg with a standardized audio volume reduction.. see [Audio Volume Manipulation](https://trac.ffmpeg.org/wiki/AudioVolume)
 * Create title images with imagemagick [ImageMagick text with transparent background](https://stackoverflow.com/questions/39919143/imagemagick-text-with-transparent-background)
+* Add title image over video [Add an image overlay in front of video](https://video.stackexchange.com/questions/12105/add-an-image-overlay-in-front-of-video-using-ffmpeg)
 * Upload a YouTube video [Upload a Video - YouTube Data API](https://developers.google.com/youtube/v3/guides/uploading_a_video)
