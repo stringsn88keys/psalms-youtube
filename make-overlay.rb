@@ -14,15 +14,15 @@ class Overlay
     text = Magick::Draw.new
     text.annotate(canvas, 0, 0, 0, 0, @title) do |txt|
       txt.font = 'Helvetica'
-      txt.pointsize = 24
+      txt.pointsize = 72
       txt.fill = 'black'
-      txt.gravity = Magick::CenterGravity
+      txt.gravity = Magick::SouthWestGravity
     end
-    text.annotate(canvas, 0, 0, 0, 30, @composer) do |txt|
+    text.annotate(canvas, 0, 0, 0, 60, @composer) do |txt|
       txt.font = 'Helvetica'
-      txt.pointsize = 18
+      txt.pointsize = 72
       txt.fill = 'black'
-      txt.gravity = Magick::CenterGravity
+      txt.gravity = Magick::SouthWestGravity
     end
     canvas.write('overlay.png')
   end
