@@ -59,3 +59,20 @@ Weeks:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
+  - liturgical_week: "Fourth Sunday of Lent, Year B"
+    liturgical_week_short: 4thSundayLentB
+    other_tags:
+      - lent4b
+    responsorial_psalm:
+      title: "Psalm 137: Let my tongue be silenced, if ever I forget you"
+      alt:
+        LPGA:
+          author: Mike Hay
+    gospel_acclamation:
+      verse: John 3:16
+      alt:
+        LPGA:
+          response: Praise and honor to you, Lord Jesus Christ
+          author: Paul M. French
+        RA:
+          response: Praise to you, Lord Jesus Christ, King of endless glory
