@@ -76,3 +76,23 @@ Weeks:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
+  - liturgical_week: Fourth Sunday of Lent, Year A (RCIA)
+    liturgical_week_short: 4thSundayLentRCIA
+    other_tags:
+      - lent4a
+      - lent4rcia
+    description: For the Second Scrutiny of the Elect
+    responsorial_psalm:
+      title: "Psalm 23: The Lord is my shepherd; there is nothing I shall want"
+      alt:
+        LPGA:
+          author: Angelo A. della Picca
+    gospel_acclamation:
+      verse: John 8:12
+      alt:
+        LPGA:
+          response: Praise and honor to you, Lord Jesus Christ
+          author: Paul M. French
+        RA:
+          response: Praise to you, Lord Jesus Christ, King of endless glory
+
