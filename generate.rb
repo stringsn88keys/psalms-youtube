@@ -29,7 +29,11 @@ end
 def title(book, part, week)
   case part
   when /Psalm/
-    week[part.snake_case]['title']
+    if week[part.snake_case]['alt'][book['short_title']]&.[]('response')
+      week[part.snake_case]['alt'][book['short_title']]['response']
+    else
+      week[part.snake_case]['title']
+    end
   when /Gospel/
     week[part.snake_case]['alt'][book['short_title']]['response']
   end

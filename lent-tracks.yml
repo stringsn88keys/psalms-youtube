@@ -95,4 +95,40 @@ Weeks:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
+  - liturgical_week: "Fifth Sunday of Lent, Year B"
+    liturgical_week_short: 5thSundayLentB
+    other_tags:
+      - lent5b
+    responsorial_psalm:
+      title: "Psalm 51: Create a clean heart in me, O God"
+      alt:
+        LPGA:
+          author: James M. Burns
+    gospel_acclamation:
+      verse: John 12:26
+      alt:
+        LPGA:
+          response: Praise and honor to you, Lord Jesus Christ
+          author: Paul M. French
+        RA:
+          response: Praise to you, Lord Jesus Christ, King of endless glory
+  - liturgical_week: Fifth Sunday of Lent, Year A (RCIA)
+    liturgical_week_short: 5thSundayLentRCIA
+    other_tags:
+      - lent5a
+      - lent5rcia
+    description: For the Third Scrutiny of the Elect
+    responsorial_psalm:
+      title: "Psalm 130: With the Lord there is mercy, and fullness of redemption"
+      alt:
+        LPGA:
+          author: Michael Bogdan
+    gospel_acclamation:
+      verse: "John 11:25a,26"
+      alt:
+        LPGA:
+          response: Praise and honor to you, Lord Jesus Christ
+          author: Paul M. French
+        RA:
+          response: Praise to you, Lord Jesus Christ, King of endless glory
 
