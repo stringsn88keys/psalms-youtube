@@ -131,4 +131,22 @@ Weeks:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
+  - liturgical_week: Palm Sunday of the Passion of the Lord
+    liturgical_week_short: PalmSundayABC
+    other_tags:
+      - palmsunday
+      - passionsundy
+    responsorial_psalm:
+      title: "Psalm 22: My God, my God, why have you abandoned me?"
+      alt:
+        LPGA:
+          author: Richard Proulx
+    gospel_acclamation:
+      verse: "Philippians 2:8-9"
+      alt:
+        LPGA:
+          response: Praise and honor to you, Lord Jesus Christ
+          author: Paul M. French
+        RA:
+          response: Praise to you, Lord Jesus Christ, King of endless glory
 
