@@ -37,13 +37,9 @@ end
 def title(book, part, liturgy)
   case part
   when /Psalm/
-    if liturgy[part.snake_case]['alt'][book['short_title']]&.[]('response')
-      liturgy[part.snake_case]['alt'][book['short_title']]['response']
-    else
-      liturgy[part.snake_case]['title']
-    end
+    liturgy.dig(part.snake_case, 'alt', book['short_title'], 'response') || liturgy[part.snake_case]['title']
   when /Gospel/
-    liturgy[part.snake_case]['alt'][book['short_title']]['response']
+    liturgy.dig(part.snake_case, 'alt', book['short_title'], 'response')
   else
     alternate_part(book, part, liturgy)['title']
   end
