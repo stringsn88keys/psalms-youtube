@@ -136,6 +136,15 @@ Liturgies:
     other_tags:
       - palmsunday
       - passionsunday
+    alternate_parts:
+      LPGA:
+        - Hosanna
+        - Responsorial Psalm
+        - Gospel Acclamation
+    hosanna:
+      title: "Hosanna to the Son of David"
+      description: "Chant at the Procession with Palms"
+      author: Alan J. Hommerding
     responsorial_psalm:
       title: "Psalm 22: My God, my God, why have you abandoned me?"
       alt:
