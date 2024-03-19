@@ -23,7 +23,7 @@ Books:
     publisher: Oregon Catholic Press
     short_publisher: OCP
 Liturgies:
-  - liturgy: "Third Sunday of Lent, Year B"
+  - liturgy_name: "Third Sunday of Lent, Year B"
     liturgy_short_name: 3rdSundayLentB
     other_tags:
       - lent3b
@@ -40,7 +40,7 @@ Liturgies:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
-  - liturgy: Third Sunday of Lent, Year A (RCIA)
+  - liturgy_name: Third Sunday of Lent, Year A (RCIA)
     liturgy_short_name: 3rdSundayLentRCIA
     other_tags:
       - lent3a
@@ -59,7 +59,7 @@ Liturgies:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
-  - liturgy: "Fourth Sunday of Lent, Year B"
+  - liturgy_name: "Fourth Sunday of Lent, Year B"
     liturgy_short_name: 4thSundayLentB
     other_tags:
       - lent4b
@@ -76,7 +76,7 @@ Liturgies:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
-  - liturgy: Fourth Sunday of Lent, Year A (RCIA)
+  - liturgy_name: Fourth Sunday of Lent, Year A (RCIA)
     liturgy_short_name: 4thSundayLentRCIA
     other_tags:
       - lent4a
@@ -95,7 +95,7 @@ Liturgies:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
-  - liturgy: "Fifth Sunday of Lent, Year B"
+  - liturgy_name: "Fifth Sunday of Lent, Year B"
     liturgy_short_name: 5thSundayLentB
     other_tags:
       - lent5b
@@ -112,7 +112,7 @@ Liturgies:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
-  - liturgy: Fifth Sunday of Lent, Year A (RCIA)
+  - liturgy_name: Fifth Sunday of Lent, Year A (RCIA)
     liturgy_short_name: 5thSundayLentRCIA
     other_tags:
       - lent5a
@@ -131,7 +131,7 @@ Liturgies:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
-  - liturgy: Palm Sunday of the Passion of the Lord
+  - liturgy_name: Palm Sunday of the Passion of the Lord
     liturgy_short_name: PalmSundayABC
     other_tags:
       - palmsunday

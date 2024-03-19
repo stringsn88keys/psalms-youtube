@@ -64,17 +64,17 @@ def base_filename(book, part, week)
   "#{book['short_title']}_#{week['liturgy_short_name']}_#{book['short_publisher']}_#{short_part(part)}"
 end
 
-data['Liturgies'].each do |week|
-  File.open(week['liturgy_short_name']+"descriptions.txt", "wt+") do |f|
-    f.puts "=== #{week['liturgy']} ==="
+data['Liturgies'].each do |liturgy|
+  File.open(liturgy['liturgy_short_name']+"descriptions.txt", "wt+") do |f|
+    f.puts "=== #{liturgy['liturgy_name']} ==="
     data['Books'].each do |book|
       book['parts'].each do |part|
-        f.puts "Filename: "+ base_filename(book, part, week)
-        f.puts "\"#{title(book, part, week)}\" - #{author(book, part, week)}"
-        f.puts sub_description(book, part, week)
+        f.puts "Filename: "+ base_filename(book, part, liturgy)
+        f.puts "\"#{title(book, part, liturgy)}\" - #{author(book, part, week)}"
+        f.puts sub_description(book, part, liturgy)
         f.puts extra
-        f.puts "##{week['liturgy_short_name']}"
-        f.puts week['other_tags'].map { |tag| "##{tag}" }.join ' '
+        f.puts "##{liturgy['liturgy_short_name']}"
+        f.puts liturgy['other_tags'].map { |tag| "##{tag}" }.join ' '
 
         f.puts
       end
