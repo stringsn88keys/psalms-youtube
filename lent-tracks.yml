@@ -22,9 +22,9 @@ Books:
     author: Owen Alstott
     publisher: Oregon Catholic Press
     short_publisher: OCP
-Weeks:
-  - liturgical_week: "Third Sunday of Lent, Year B"
-    liturgical_week_short: 3rdSundayLentB
+Liturgies:
+  - liturgy: "Third Sunday of Lent, Year B"
+    liturgy_short_name: 3rdSundayLentB
     other_tags:
       - lent3b
     responsorial_psalm:
@@ -40,8 +40,8 @@ Weeks:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
-  - liturgical_week: Third Sunday of Lent, Year A (RCIA)
-    liturgical_week_short: 3rdSundayLentRCIA
+  - liturgy: Third Sunday of Lent, Year A (RCIA)
+    liturgy_short_name: 3rdSundayLentRCIA
     other_tags:
       - lent3a
       - lent3rcia
@@ -59,8 +59,8 @@ Weeks:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
-  - liturgical_week: "Fourth Sunday of Lent, Year B"
-    liturgical_week_short: 4thSundayLentB
+  - liturgy: "Fourth Sunday of Lent, Year B"
+    liturgy_short_name: 4thSundayLentB
     other_tags:
       - lent4b
     responsorial_psalm:
@@ -76,8 +76,8 @@ Weeks:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
-  - liturgical_week: Fourth Sunday of Lent, Year A (RCIA)
-    liturgical_week_short: 4thSundayLentRCIA
+  - liturgy: Fourth Sunday of Lent, Year A (RCIA)
+    liturgy_short_name: 4thSundayLentRCIA
     other_tags:
       - lent4a
       - lent4rcia
@@ -95,8 +95,8 @@ Weeks:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
-  - liturgical_week: "Fifth Sunday of Lent, Year B"
-    liturgical_week_short: 5thSundayLentB
+  - liturgy: "Fifth Sunday of Lent, Year B"
+    liturgy_short_name: 5thSundayLentB
     other_tags:
       - lent5b
     responsorial_psalm:
@@ -112,8 +112,8 @@ Weeks:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
-  - liturgical_week: Fifth Sunday of Lent, Year A (RCIA)
-    liturgical_week_short: 5thSundayLentRCIA
+  - liturgy: Fifth Sunday of Lent, Year A (RCIA)
+    liturgy_short_name: 5thSundayLentRCIA
     other_tags:
       - lent5a
       - lent5rcia
@@ -131,11 +131,11 @@ Weeks:
           author: Paul M. French
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
-  - liturgical_week: Palm Sunday of the Passion of the Lord
-    liturgical_week_short: PalmSundayABC
+  - liturgy: Palm Sunday of the Passion of the Lord
+    liturgy_short_name: PalmSundayABC
     other_tags:
       - palmsunday
-      - passionsundy
+      - passionsunday
     responsorial_psalm:
       title: "Psalm 22: My God, my God, why have you abandoned me?"
       alt:

@@ -41,10 +41,10 @@ end
 
 def sub_description(book, part, week)
   lines = []
-  if week['liturgical_week'] =~ / of /
-    lines << "#{book['title']} #{part} for the #{week['liturgical_week']}"
+  if week['liturgy'] =~ / of /
+    lines << "#{book['title']} #{part} for the #{week['liturgy']}"
   else
-    lines << "#{book['title']} #{part} for #{week['liturgical_week']}"
+    lines << "#{book['title']} #{part} for #{week['liturgy']}"
   end
 
   if part =~ /Gospel/
@@ -61,19 +61,19 @@ def extra
 end
 
 def base_filename(book, part, week)
-  "#{book['short_title']}_#{week['liturgical_week_short']}_#{book['short_publisher']}_#{short_part(part)}"
+  "#{book['short_title']}_#{week['liturgy_short_name']}_#{book['short_publisher']}_#{short_part(part)}"
 end
 
-data['Weeks'].each do |week|
-  File.open(week['liturgical_week_short']+"descriptions.txt", "wt+") do |f|
-    f.puts "=== #{week['liturgical_week']} ==="
+data['Liturgies'].each do |week|
+  File.open(week['liturgy_short_name']+"descriptions.txt", "wt+") do |f|
+    f.puts "=== #{week['liturgy']} ==="
     data['Books'].each do |book|
       book['parts'].each do |part|
         f.puts "Filename: "+ base_filename(book, part, week)
         f.puts "\"#{title(book, part, week)}\" - #{author(book, part, week)}"
         f.puts sub_description(book, part, week)
         f.puts extra
-        f.puts "##{week['liturgical_week_short']}"
+        f.puts "##{week['liturgy_short_name']}"
         f.puts week['other_tags'].map { |tag| "##{tag}" }.join ' '
 
         f.puts
