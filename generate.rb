@@ -9,6 +9,8 @@ def short_part(part)
     'Psalm'
   when /Gospel/
     'Gospel'
+  else
+    part
   end
 end
 
@@ -22,8 +24,14 @@ end
 
 using StringHelpers
 
+def alternate_part(book, part, liturgy)
+  liturgy.dig(part.snake_case, 'alt', book['short_title']) ||
+    liturgy[part.snake_case]
+end
+
 def author(book, part, liturgy)
-  book['author'] || liturgy[part.snake_case]['alt'][book['short_title']]['author']
+  book['author'] ||
+  alternate_part(book, part, liturgy)['author']
 end
 
 def title(book, part, liturgy)
@@ -36,6 +44,8 @@ def title(book, part, liturgy)
     end
   when /Gospel/
     liturgy[part.snake_case]['alt'][book['short_title']]['response']
+  else
+    alternate_part(book, part, liturgy)['title']
   end
 end
 
