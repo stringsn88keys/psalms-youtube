@@ -1,0 +1,24 @@
+Books:
+  - title: Lectionary Psalms (GIA)
+    short_title: LP
+    parts:
+      - Responsorial Psalm
+    author: Michel Guimont
+    publisher: GIA Publications
+    short_publisher: GIA
+  - title: Lectionary Psalms and Gospel Acclamations (WLP)
+    short_title: LPGA
+    parts:
+      - Responsorial Psalm
+      - Gospel Acclamation
+    publisher: World Library Publications
+    short_publisher: WLP
+  - title: Respond and Acclaim
+    short_title: RA
+    parts:
+      - Responsorial Psalm
+      - Gospel Acclamation
+    author: Owen Alstott
+    publisher: Oregon Catholic Press
+    short_publisher: OCP
+
