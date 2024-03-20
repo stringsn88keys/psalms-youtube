@@ -1,0 +1,58 @@
+Books:
+  - title: Lectionary Psalms (GIA)
+    short_title: LP
+    parts:
+      - Responsorial Psalm
+    author: Michel Guimont
+    publisher: GIA Publications
+    short_publisher: GIA
+  - title: Lectionary Psalms and Gospel Acclamations (WLP)
+    short_title: LPGA
+    parts:
+      - Responsorial Psalm
+      - Gospel Acclamation
+    publisher: World Library Publications
+    short_publisher: WLP
+  - title: Respond and Acclaim
+    short_title: RA
+    parts:
+      - Responsorial Psalm
+      - Gospel Acclamation
+    author: Owen Alstott
+    publisher: Oregon Catholic Press
+    short_publisher: OCP
+Liturgies:
+  - liturgy_name: "Thursday of Holy Week--Chrism Mass"
+    liturgy_short_name: ChrismMass
+    other_tags:
+      - holyweek
+    responsorial_psalm:
+      title: "Psalm 89: Forever I will sing the goodness of the Lord"
+      alt:
+        LPGA:
+          author: Robert E. Kreutz
+    gospel_acclamation:
+      verse: Isaiah 61:1
+      alt:
+        LPGA:
+          response: Glory and praise to you, Lord Jesus Christ
+          author: James E. Wilbur
+        RA:
+          response: Praise to you, Lord Jesus Christ, King of endless glory
+  - liturgy_name: "Holy Thursday, Evening Mass of the Lord's Supper"
+    liturgy_short_name: HolyThursday
+    other_tags:
+      - holyweek
+    responsorial_psalm:
+      title: "1 Corinthians 10: Our blessing cup is a communion with the Blood of Christ"
+      alt:
+        LPGA:
+          author: Marcy Weckler
+    gospel_acclamation:
+      verse:
+      alt:
+        LPGA:
+          response: Glory and praise to you, Lord Jesus Christ
+          author: James E. Wilbur
+        RA:
+          response: Praise to you, Lord Jesus Christ, King of endless glory
