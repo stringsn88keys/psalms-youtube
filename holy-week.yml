@@ -56,3 +56,21 @@ Liturgies:
           author: James E. Wilbur
         RA:
           response: Praise to you, Lord Jesus Christ, King of endless glory
+  - liturgy_name: "Good Friday"
+    liturgy_short_name: GoodFriday
+    other_tags:
+      - holyweek
+    responsorial_psalm:
+      title: "Psalm 31: Father, into your hands I commend my spirit"
+      alt:
+        LPGA:
+          author: Howard Hughes
+    gospel_acclamation:
+      verse: Philippians 2:8-9
+      alt:
+        LPGA:
+          response: Glory and praise to you, Lord Jesus Christ
+          author: James E. Wilbur
+        RA:
+          response: Praise to you, Lord Jesus Christ, King of endless glory
+
